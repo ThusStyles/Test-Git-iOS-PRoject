@@ -21,6 +21,7 @@
 		FB32946618B2341A00F02474 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB32944818B2341900F02474 /* UIKit.framework */; };
 		FB32946E18B2341A00F02474 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB32946C18B2341A00F02474 /* InfoPlist.strings */; };
 		FB32947018B2341A00F02474 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB32946F18B2341A00F02474 /* Git_TestTests.m */; };
+		FB32947B18B236EA00F02474 /* TSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB32947A18B236EA00F02474 /* TSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FB32946B18B2341A00F02474 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FB32946D18B2341A00F02474 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB32946F18B2341A00F02474 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FB32947918B236EA00F02474 /* TSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTest.h; sourceTree = "<group>"; };
+		FB32947A18B236EA00F02474 /* TSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FB32945618B2341A00F02474 /* Main.storyboard */,
 				FB32945918B2341A00F02474 /* TSViewController.h */,
 				FB32945A18B2341A00F02474 /* TSViewController.m */,
+				FB32947918B236EA00F02474 /* TSTest.h */,
+				FB32947A18B236EA00F02474 /* TSTest.m */,
 				FB32945C18B2341A00F02474 /* Images.xcassets */,
 				FB32944B18B2341900F02474 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				FB32945118B2341900F02474 /* main.m in Sources */,
 				FB32945518B2341900F02474 /* TSAppDelegate.m in Sources */,
+				FB32947B18B236EA00F02474 /* TSTest.m in Sources */,
 				FB32945B18B2341A00F02474 /* TSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
